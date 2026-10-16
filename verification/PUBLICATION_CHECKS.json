@@ -4,8 +4,13 @@
   "lean_input_files": 475,
   "all_lean_input_bytes_preserved": true,
   "pinned_compiler_and_nine_dependency_revisions_checked": true,
-  "local_document_links_checked": 29,
+  "local_document_links_checked": 31,
   "english_and_traditional_chinese_descriptions": true,
+  "language_navigation": {
+    "README.md": "English only",
+    "README.zh-TW.md": "Traditional Chinese only",
+    "reciprocal_switch_links": true
+  },
   "exact_examples_exit": 0,
   "pdf_compile_exit": 0,
   "pdf_pages": 30,
