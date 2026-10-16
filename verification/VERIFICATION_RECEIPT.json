@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "terminal_exit_code": 0,
+  "verification_date_utc": "2026-10-09",
+  "full_workflow": "Original build_project.py with private runtime-path adaptation and safe owned-output overlay repair; no mathematical source changes",
+  "source_modules": 159,
+  "root_breakdown": {
+    "Ext": 13,
+    "Gen": 29,
+    "Cover": 106,
+    "Mathlib": 3,
+    "lean": 8
+  },
+  "successful_compilations_including_computability": 160,
+  "successful_audit_compiler_invocations": 312,
+  "import_only_modules_skipped_in_inventory": 3,
+  "module_declaration_occurrences": 8222,
+  "distinct_declaration_names": 8174,
+  "theorem_occurrences": 5222,
+  "distinct_theorem_names": 5174,
+  "codegen_only_ownership_records": 5678,
+  "computable_roots": 37,
+  "allowed_observed_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "nonstandard_axioms": [],
+  "all_existing_lean_sources_checked": 475,
+  "changed_existing_lean_sources": [],
+  "new_lean_sources_after_build": [],
+  "historical_complete_occurrence_match": true,
+  "pins": [
+    {
+      "name": "mathlib",
+      "rev": "81a5d257c8e410db227a6665ed08f64fea08e997",
+      "tracked_files_clean": true
+    },
+    {
+      "name": "plausible",
+      "rev": "e12c1910fe855cbfc38803cd4e55543906d5fa62",
+      "tracked_files_clean": true
+    },
+    {
+      "name": "LeanSearchClient",
+      "rev": "c5d5b8fe6e5158def25cd28eb94e4141ad97c843",
+      "tracked_files_clean": true
+    },
+    {
+      "name": "importGraph",
+      "rev": "7e9612bf0b9ee66db3cb5b9988a35afc706f5a12",
+      "tracked_files_clean": true
+    },
+    {
+      "name": "proofwidgets",
+      "rev": "6e311e2a844da9b2cc3971187df2fe0066947b93",
+      "tracked_files_clean": true
+    },
+    {
+      "name": "aesop",
+      "rev": "a7dbf0c63b694e47f425f3dcddbc0e178bb432d3",
+      "tracked_files_clean": true
+    },
+    {
+      "name": "Qq",
+      "rev": "38d591e778f100aec9762bb582f9c7f55f50e9dc",
+      "tracked_files_clean": true
+    },
+    {
+      "name": "batteries",
+      "rev": "023ce7d62a0531e22a5331e20b587817a80d49ff",
+      "tracked_files_clean": true
+    },
+    {
+      "name": "Cli",
+      "rev": "88679d088c9720c27ebdf2ba4dafe17341747f94",
+      "tracked_files_clean": true
+    }
+  ],
+  "source_compile_and_computability_seconds": 1044.2845482826233,
+  "per_module_audit_seconds": 2346.8881113529205,
+  "standard_external_dependency_artifacts_reused": true,
+  "whole_toolchain_or_mathlib_source_rebuild": false,
+  "partial_alternatives": 154,
+  "real_data_validation": false,
+  "original_full_model_pilots": "UNKNOWN; no numerical separation certificate",
+  "original_archives_modified": false
+}

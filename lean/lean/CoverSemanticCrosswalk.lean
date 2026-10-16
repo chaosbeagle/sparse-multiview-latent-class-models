@@ -1,0 +1,40 @@
+import Cover.A06Capped
+import Cover.A06Statistics
+import Cover.AlgebraicAdequacy
+import Cover.CompilerTaskDegree
+import Cover.ConstraintCounts
+
+/- The printed types expose the exact formal premises to independent reviewers.
+They do not turn generic component assumptions into instantiated A06 conclusions. -/
+#check Cover.AlgCode.algebraic_has_certified_bracket
+#check Cover.Literal.every_stage_denominators_positive
+#check Cover.Literal.literal_all_constants_defined
+#check Cover.ConcreteCompiler.dimension_exact
+#check Cover.ConcreteCompiler.coverEncoding_iff
+#check Cover.ConcreteCompiler.coverObjective_eval
+#check Cover.ConcreteCompiler.every_farPair_unique
+#check Cover.FullRealBridge.concrete_coverEncoding_iff_fullDistance
+#check Cover.ConstraintCounts.constraints_length
+#check Cover.coverInterval_uniform_convergence
+#check Cover.CompilerTasks.compileTask
+#check Cover.CompilerTasks.compileTask_result
+#check Cover.A06.verifyCoverCertificate_sound
+#check Cover.A06.coverStage_eventually_succeeds
+#check Cover.A06.firstSuccessfulStage
+#check Cover.A06.firstSuccessfulStage_minimal
+#check Cover.A06.returnedTree_is_actual_output
+#check Cover.A06.computedCoverDelta_separates
+#check Cover.A06.runCover
+#check Cover.A06.runCover_completes_admitted
+#check Cover.A06.runCover_success_fully_checked
+#check Cover.A06.runCoverCapped
+#check Cover.A06.runCoverCapped_prefix
+#check Cover.A06.runCoverCapped_success_fully_checked
+#check Cover.A06.runCoverCapped_success_separates
+#check Cover.A06.runCoverCapped_eventual
+#check Cover.A06.runCoverCapped_eventual_of_parsed
+#check Cover.A06.runCoverCapped_invalid_completed
+#check Cover.A06.runCoverCapped_admitted_no_errors
+#check Cover.A06.conditioned_global_inverse_of_cover
+#check Cover.A06.conditioned_strict_inverse_of_cover
+#check Cover.A06.conditioned_rate_stat_of_cover

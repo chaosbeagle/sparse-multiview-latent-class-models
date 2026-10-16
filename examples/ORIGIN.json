@@ -1,0 +1,6 @@
+{
+  "source_filename": "verify_p1_p4.py",
+  "source_sha256": "8cbbf71c24bf8f8bd472139c5c11e43fda75a7e55994b5b322023b64ed42fce8",
+  "adaptation": "Mathematical-purpose filename, documentation and display labels; radius variable naming; explicit rejection of disabled assertions. Rational formulas and original assertions are unchanged.",
+  "formalization_status": "The new volume bound and rational far-pair calculation are not included in the unchanged Lean sources."
+}

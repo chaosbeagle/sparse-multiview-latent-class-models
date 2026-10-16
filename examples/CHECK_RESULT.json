@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-10T07:25:09Z",
+  "command": "python3 -I exact_examples/verify_examples.py",
+  "python_version": "3.12.14",
+  "script_sha256": "cb028e4399e16b9dac26392047afd51e0b5c8751bef39d63e8f617167aea6474",
+  "output_sha256": "996e614b039fcf8137db62ec9fc441699d37d46a4ce1cf3380c98a627cce2ff7",
+  "exit_code": 0,
+  "original_exact_assertions_preserved": 18,
+  "disabled_assertions_rejected": true,
+  "scope": "Exact rational and finite arithmetic only. No Lean compilation, interval-cover search, global fitting, or empirical validation."
+}

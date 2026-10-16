@@ -1,0 +1,19 @@
+Certificate size: rational lower enclosures (decimal displays rounded):
+w=1/10, sigma=1/10: volume lower enclosure ~ 0.205975083565690, leaf lower enclosure ~ 8.81899696095113E+44
+w=1/5, sigma=1/5: volume lower enclosure ~ 0.0762010255695048, leaf lower enclosure ~ 1.38038257758639E+36
+w=3/10, sigma=3/10: volume lower enclosure ~ 0.0227991090322537, leaf lower enclosure ~ 5.60245181320060E+30
+w=2/5, sigma=1/2: volume lower enclosure ~ 0.00151397835353026, leaf lower enclosure ~ 1.39782238551832E+24
+w=9/20, sigma=7/10: volume lower enclosure ~ 0.0000353180870311540, leaf lower enclosure ~ 1.59304088595485E+19
+w=49/100, sigma=9/10: volume lower enclosure ~ 9.68946146259369E-9, leaf lower enclosure ~ 16709937398986.5
+margins (1/4, 1/sqrt(2)): 0.000152931007419865 2.93690054300916E+21 ; verified leaves > 2.9369e21
+
+Exact rational far-pair checks: all passed
+direct distance squared = 11/250000000000 = 4.4E-11
+swap distance squared = 187500000011/250000000000
+H = 244140625156250000001/31250000000000000000000000000000000 = 7.81250000500000E-15
+observation gap < 9e-8; sample-count lower expression (rounded) = 2.52839506172840E+18
+dyadic-returned-Delta prescribed per-edge count >= 5764607523034234880
+
+Boundary prescribed count = 1812393, certified by rational sqrt(2) brackets.
+Boundary: 8 parameters; 4 orbits; pairwise-disjoint observation supports; distinct orbit distance 2.
+All exact arithmetic checks passed.
